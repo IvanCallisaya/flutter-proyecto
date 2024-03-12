@@ -35,10 +35,10 @@ class _TranslatorAppState extends State<TranslatorApp> {
   ];
   final translator = GoogleTranslator();
   String from = 'en';
-  String to = 'hi';
-  String data = 'आप कैसे हैं?';
+  String to = 'es';
+  String data = '¿Cómo estás?';
   String selectedvalue = 'English';
-  String selectedvalue2 = 'Hindi';
+  String selectedvalue2 = 'Español';
   TextEditingController controller =
       TextEditingController(text: 'How are you?');
   final formkey = GlobalKey<FormState>();
